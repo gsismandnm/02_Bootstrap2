@@ -1,1 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Bootstrap CSS -->
+    <link href="http://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Bootstrap Özet Çalışma</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FSD Kurs Programı</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Web Sayfası Yapımı</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CSS Yazılımı</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Örnek Uygulamalar
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">1'nci Uygulama</a></li>
+                  <li><a class="dropdown-item" href="#">2'nci Uygulama</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">3'ncü Uygulama</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Kullanılamaz</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Arama" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Arama</button>
+            </form>
+            <hr>
+          </div>
+        </div>
+      </nav>
+ 
+    <div class="container">
+<!-- ALERTS -->
+<div class="container">
+  <div class="alert alert-danger">Dikkat! Tehlikeli Düzeyde İşlem Yaptınız</div>
+  <div class="alert alert-success">Kaydınız Başarı İle Tamamlandı</div>
+  <div class="alert alert-warning">Uyarı! Eksik Bilgi Girdiniz</div>
+  <div class="alert alert-primary">Tüm İşlemler Başarı İle Tamamlandı</div>
+</div>
+
+<hr>
+
+<!-- PROGRESS BARS -->
+<div class="container">
+  <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+</div>
+
+<hr>
+
+<!-- IMAGES -->
+<div class="container">
+  <img class="rounded-circle" alt="..." src="images/img01.jpg">
+  <!--<img class="rounded float-start" alt="..." src="images/img02.jpg">
+  <img class="rounded mx-auto d-block" alt="..." src="images/img03.jfif">
+  <img class="rounded-circle" alt="..." src="images/img04.jfif"> -->
+</div>
+
+<hr>
+        <!-- TYPO -->
+        <p class="text-center">
+            Kurs ortalama <u>7 ay kadar</u> sürmektedir. Kurs süresince devamlı çalışmalı, örnek uygulamalar yapılmalıdır.
+        </p>
+        <hr>
+        <p class="text-uppercase">
+            Full Stack Developer olmak isteyen birisi mutlaka çalışmalı ve örnekler hazırlamalıdır.
+        </p>
+        <hr>
+        <p class="text-capitalize">
+            Bu kursa bilgisayar kullanmasını bilen herkes katılabilir. Kursta başarılı olabilmek için azimli olmak ve sürekli çalışmak önemlidir.
+        </p>
+    </div>
+    
+    <hr>
+
+    <div class="container">
+       <!-- LIST -->
+       <ul class="list-group">
+           <li class="list-group-item">HTML</li>
+           <li class="list-group-item">CSS</li>
+           <li class="list-group-item">Java Script</li>
+           <li class="list-group-item">Uygulama</li>
+       </ul>
+    </div>
+
+    <hr>
+
+    <div class="container">
+       <!-- BUTTONS -->
+       <button class="btn btn-primary">Sınıf Listesi</button>
+       <button class="btn btn-default">Öğrenciler</button>
+       <button class="btn btn-secondary">Dersler</button>
+       <button class="btn btn-warning">Ders Programı</button>
+       <button class="btn btn-danger">Aylık Plan</button>
+       <button class="btn btn-success">Günlük Plan</button>
+       <br>
+       <br>
+       <button class="btn btn-primary btn-lg">Adresler</button>
+       <button class="btn btn-default">Mail Adresleri</button>
+       <button class="btn btn-secondary btn-sm">Örnek Uygulamalar</button>
+       <button class="btn btn-warning">Code Bankası</button>
+       <button class="btn btn-danger">Yardım Et</button>
+       <button class="btn btn-success">Kapat</button><br>
+       <br>
+       <br>
+       <a href="#" class="btn btn-primary">Sayfanın Başına Dön</a>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <form class="form-group">
+            <label>Adı</label>
+            <input class="form-control" type="text">
+            <label>Soyadı</label>
+            <input class="form-control" type="text">
+            <label>Öğrenci No</label>
+            <input class="form-control" type="mail">
+            <hr>
+            <div>
+                <input type="submit" class="btn btn-success" value="Onayla">
+            </div>
+        </form>
+    </div>
+
+    <hr>
+
+    
+    <!-- TABLE -->
+    <div class="container">
+        <table class="table table-striped table-hover table-condensed">
+            <tr>
+                <td class="baslik">Adi</td>
+                <td>Soyadi</td>
+                <td>Email</td>
+            </tr>
+            <tr>
+                <td>Murat</td>
+                <td>Merdoglu</td>
+                <td>elbe.murat@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Hasan</td>
+                <td>Osmanoglu</td>
+                <td>hasan@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Hasan</td>
+                <td>Osmanoglu</td>
+                <td>hasan@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Hasan</td>
+                <td>Osmanoglu</td>
+                <td>hasan@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Hasan</td>
+                <td>Osmanoglu</td>
+                <td>hasan@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <hr>
+
+    <!-- IMAGES -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">Birinci alan 6 birim büyüklüğündedir.</div>
+            <div class="col-md-3">İkinci alan 3 birim büyüklüğündedir.</div>
+            <div class="col-md-3">Üçüncü alan 3 birim büyüklüğündedir.</div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div style="height:500px">
+
+    </div>
+
+    
+    <script src="http://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
